@@ -1,0 +1,46 @@
+/* позиционирование Чем мы занимаемся */
+.profession-name {
+  margin-top: 10px;
+}
+.footer-item {
+  width: 270px;
+ }
+.button {
+  font-weight: 500;
+}
+.exampel-list {
+  margin-top: 56px;
+}
+.example-type {
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+.section-todo-list {
+  display: flex;
+}
+.section-todo-list li {
+  width: 370px;
+}
+.section-todo-list li:not(:last-child) {
+  margin-right: 30px;
+}
+.todo-list-item {
+  position: relative;
+}
+.todo-description {
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--other-color);
+  background: rgba(47, 48, 58, 0.8);
+  height: 70px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;   
+}
