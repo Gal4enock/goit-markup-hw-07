@@ -632,7 +632,7 @@ address {
   transition: 0.7s steps(3, end);
 }
 
-.modal > .close {
+.modal .close {
   display: flex;
   position: absolute;
   fill: #212121;
@@ -642,7 +642,6 @@ address {
   background-color: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  /* margin-left: 490px; */
   margin-top: 8px;
   right: 10px;
   align-items: center;
@@ -656,7 +655,7 @@ address {
   cursor: pointer;
 }
 
-.cross:focus, .cross:hover {
+.cross:hover, .cross:focus {
   fill: #2196F3;
   outline: none;
 }
@@ -665,6 +664,10 @@ address {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
+}
+
+.is-hidden .modal {
+  transform: translateX(-50%) scale(0.5);
 }
 
 /* ---------Стилизация формы------- */
@@ -747,10 +750,6 @@ address {
 .input-svg {
   position: relative;
   width: auto;
-}
-
-.is-hidden .modal {
-  transform: translateX(-50%) scale(0.5);
 }
 
 .contract {
