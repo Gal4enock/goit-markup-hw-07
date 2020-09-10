@@ -178,30 +178,27 @@ header {
   padding-top: 24px;
 }
 
-.site-address a {
+.header-site-address a {
   color: #757575;
   font-style: normal;
-}
-
-.site-address a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-address a:hover, .site-address a:focus {
+.header-site-address a:hover, .header-site-address a:focus {
   color: #2196F3;
 }
 
 /* Расположение шапки */
-.site-address, .address-section {
+.header-site-address, .header-address-section {
   display: inline-flex;
   align-items: center;
   justify-items: center;
 }
 
-.address-section {
+.header-address-section {
   justify-content: flex-end;
   margin-left: auto;
 }
@@ -211,11 +208,11 @@ header {
   display: flex;
 }
 
-.site-address-item:not(:last-child) {
+.header-site-address-item:not(:last-child) {
   margin-right: 50px;
 }
 
-.site-address-svg {
+.header-site-address-svg {
   height: 16px;
   width: 18px;
   fill: currentColor;

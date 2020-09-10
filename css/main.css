@@ -325,19 +325,19 @@ header {
   margin-right: 0;
 }
 
-.site-address a {
+.header-site-address a {
   color: #757575;
   font-style: normal;
 }
 
-.site-nav a, .site-address a {
+.site-nav a, .header-site-address a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav a:hover, .site-nav a:focus, .site-address a:hover, .site-address a:focus {
+.site-nav a:hover, .site-nav a:focus, .header-site-address a:hover, .header-site-address a:focus {
   color: #2196F3;
 }
 
@@ -362,7 +362,7 @@ header {
 }
 
 /* Расположение шапки */
-.site-nav, nav, .site-address, .address-section {
+.site-nav, nav, .header-site-address, .header-address-section {
   display: inline-flex;
   align-items: center;
   justify-items: center;
@@ -373,7 +373,7 @@ nav {
   align-items: center;
 }
 
-.address-section {
+.header-address-section {
   justify-content: flex-end;
   margin-left: auto;
 }
@@ -383,11 +383,11 @@ nav {
   display: flex;
 }
 
-.site-address-item:not(:last-child) {
+.header-site-address-item:not(:last-child) {
   margin-right: 50px;
 }
 
-.site-address-svg {
+.header-site-address-svg {
   height: 16px;
   width: 18px;
   fill: currentColor;
