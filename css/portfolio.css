@@ -115,12 +115,6 @@ h3 {
   color: #2196F3;
 }
 
-header {
-  border: 1px solid #ECECEC;
-  padding-bottom: 25px;
-  padding-top: 24px;
-}
-
 .site-nav a {
   color: #212121;
   font-weight: 500;
@@ -135,19 +129,14 @@ header {
   margin-right: 0;
 }
 
-.site-address a {
-  color: #757575;
-  font-style: normal;
-}
-
-.site-nav a, .site-address a {
+.site-nav a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav a:hover, .site-nav a:focus, .site-address a:hover, .site-address a:focus {
+.site-nav a:hover, .site-nav a:focus {
   color: #2196F3;
 }
 
@@ -172,7 +161,7 @@ header {
 }
 
 /* Расположение шапки */
-.site-nav, nav, .site-address, .address-section {
+.site-nav, nav {
   display: inline-flex;
   align-items: center;
   justify-items: center;
@@ -181,6 +170,35 @@ header {
 nav {
   justify-content: flex-start;
   align-items: center;
+}
+
+header {
+  border: 1px solid #ECECEC;
+  padding-bottom: 25px;
+  padding-top: 24px;
+}
+
+.site-address a {
+  color: #757575;
+  font-style: normal;
+}
+
+.site-address a {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.site-address a:hover, .site-address a:focus {
+  color: #2196F3;
+}
+
+/* Расположение шапки */
+.site-address, .address-section {
+  display: inline-flex;
+  align-items: center;
+  justify-items: center;
 }
 
 .address-section {

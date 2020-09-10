@@ -3,21 +3,11 @@ header {
   padding-bottom: 25px;
   padding-top: 24px;
 }
-.site-nav {
-  a{
-    color:$title-text-color;
-    font-weight: 500; }
-  li {
-    display: block;
-    margin-right: 50px;
-    &:last-child {
-      margin-right: 0;}}
-}
 .site-address a{
   color:$primery-text-color;
   font-style: normal;
 }
-.site-nav, .site-address {
+.site-address {
   a {
     font-size: 14px;
     line-height: 1.14;
@@ -26,31 +16,12 @@ header {
   &:hover, &:focus {
      color:$accent-color;}}
     }
-.site-nav .link.current {
-  color: $accent-color;
-}
-.current {
-  position: relative;
- &::after {
-  content: "";
-  display: block;
-  background-color: $accent-color;
-  border-color: $accent-color;
-  border-radius: 2px;
-  width: 100%;
-  height: 4px;
-  margin-top: 28px;
-  position: absolute;}
-}
+
 /* Расположение шапки */
-.site-nav, nav, .site-address, .address-section {
+.site-address, .address-section {
   display: inline-flex;
   align-items: center;
   justify-items: center;   
-}
-nav {
-  justify-content: flex-start;
-  align-items: center;   
 }
 .address-section{
   justify-content: flex-end;
