@@ -45,6 +45,7 @@ a:hover, a:focus {
 .button {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  font-weight: 500;
   text-align: center;
   border-radius: 4px;
   padding: 6px 22px;
@@ -107,6 +108,7 @@ h3 {
   font-weight: 700;
   font-family: 'Raleway', sans-serif;
   color: #212121;
+  margin-right: 93px;
 }
 
 .logo-word {
@@ -303,18 +305,32 @@ h3 {
   margin-top: 30px;
 }
 
+header {
+  border: 1px solid #ECECEC;
+  padding-bottom: 25px;
+  padding-top: 24px;
+}
+
 .site-nav a {
   color: #212121;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  transition: color 250ms linear;
+}
+
+.site-nav li {
+  display: block;
+  margin-right: 50px;
+}
+
+.site-nav li:last-child {
+  margin-right: 0;
 }
 
 .site-address a {
   color: #757575;
   font-style: normal;
+}
+
+.site-nav a, .site-address a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -329,6 +345,10 @@ h3 {
   color: #2196F3;
 }
 
+.current {
+  position: relative;
+}
+
 .current::after {
   content: "";
   display: block;
@@ -339,19 +359,6 @@ h3 {
   height: 4px;
   margin-top: 28px;
   position: absolute;
-}
-
-.current {
-  position: relative;
-}
-
-.site-nav li {
-  display: block;
-  margin-right: 50px;
-}
-
-.site-nav li:last-child {
-  margin-right: 0;
 }
 
 /* Расположение шапки */
@@ -368,29 +375,16 @@ nav {
 
 .address-section {
   justify-content: flex-end;
+  margin-left: auto;
 }
 
-.header {
+.header-container {
   align-items: center;
   display: flex;
 }
 
-header {
-  border: 1px solid #ECECEC;
-  padding-bottom: 25px;
-  padding-top: 24px;
-}
-
-.logo {
-  margin-right: 93px;
-}
-
 .site-address-item:not(:last-child) {
   margin-right: 50px;
-}
-
-.address-section {
-  margin-left: auto;
 }
 
 .site-address-svg {
@@ -460,7 +454,7 @@ header {
   line-height: 1.71;
 }
 
-.name, .profession-name {
+.name, .todo-profession-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -571,6 +565,10 @@ footer .social-links-list {
   display: flex;
 }
 
+.footer-item {
+  width: 270px;
+}
+
 .logo-footer {
   color: #FFFFFF;
   font-family: 'Raleway', sans-serif;
@@ -655,36 +653,19 @@ address {
 }
 
 /* позиционирование Чем мы занимаемся */
-.profession-name {
+.todo-profession-name {
   margin-top: 10px;
 }
 
-.footer-item {
-  width: 270px;
-}
-
-.button {
-  font-weight: 500;
-}
-
-.exampel-list {
-  margin-top: 56px;
-}
-
-.example-type {
-  margin-top: 4px;
-  margin-bottom: 0;
-}
-
-.section-todo-list {
+.todo-section-list {
   display: flex;
 }
 
-.section-todo-list li {
+.todo-section-list li {
   width: 370px;
 }
 
-.section-todo-list li:not(:last-child) {
+.todo-section-list li:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -710,7 +691,6 @@ address {
   justify-content: center;
 }
 
-/* Позиционирование Наша Команда */
 .section-team-list {
   display: flex;
 }

@@ -9,6 +9,8 @@
   letter-spacing: 0.06em;
 }
 .example-type {
+  margin-top: 4px;
+  margin-bottom: 0;
   font-size: 16px;
   line-height: 1.87;
   color: $primery-text-color;
@@ -27,6 +29,7 @@
 .exampel-list {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 56px;
   a {
     color:$title-text-color;
     text-decoration: none;

@@ -1,4 +1,3 @@
-/* Позиционирование Наша Команда */
 .section-team-list {
   display: flex;
   &>li {
@@ -10,9 +9,8 @@
 }
 .team {
   background-color:#F5F4FA;
-}
-.team-detail {
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  &-detail {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;}
 }

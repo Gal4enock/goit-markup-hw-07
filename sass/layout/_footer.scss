@@ -30,7 +30,10 @@ footer {
       margin-right: 30px;}}
   &-sign-form {
   display: flex;}
+  &-item {
+    width: 270px;}
 }
+
 .logo-footer {
   color: $other-color;
   font-family: 'Raleway', sans-serif;

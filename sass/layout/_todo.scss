@@ -1,27 +1,14 @@
 /* позиционирование Чем мы занимаемся */
-.profession-name {
+.todo-profession-name {
   margin-top: 10px;
 }
-.footer-item {
-  width: 270px;
- }
-.button {
-  font-weight: 500;
-}
-.exampel-list {
-  margin-top: 56px;
-}
-.example-type {
-  margin-top: 4px;
-  margin-bottom: 0;
-}
-.section-todo-list {
+.todo-section-list {
   display: flex;
 }
-.section-todo-list li {
+.todo-section-list li {
   width: 370px;
 }
-.section-todo-list li:not(:last-child) {
+.todo-section-list li:not(:last-child) {
   margin-right: 30px;
 }
 .todo-list-item {
