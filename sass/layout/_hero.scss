@@ -1,8 +1,8 @@
 .button-hero {
   font-weight: 700;
   line-height: 1.6;
-  background-color: var(--accent-color);
-  color: var(--other-color);
+  background-color: $accent-color;
+  color: $other-color;
   text-align: center;
   letter-spacing: 0.06em;
   line-height: 1.875;
@@ -11,7 +11,7 @@
   min-width: 200px;
 }
 .hero {
-  background-color: var(--primery-text-color);
+  background-color: $primery-text-color;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -28,7 +28,7 @@
   margin-right: auto;
 }
 .hero-title {
-  color: var(--other-color);
+  color: $other-color;
   text-transform: uppercase;
   text-align: center;
   font-style: normal;

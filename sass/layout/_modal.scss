@@ -13,7 +13,7 @@
   width: 100%;
   max-width: 528px;
   height: 581px;
-  background-color: var(--other-color);
+  background-color: $other-color;
   position: absolute;
   left: 50%;
   top: 21%;
@@ -23,11 +23,11 @@
 .modal > .close {
   display: flex;
   position: absolute;
-  fill: var(--title-text-color);
+  fill: $title-text-color;
   padding: 0;
   width: 30px;
   height: 30px;
-  background-color: var(--other-color);
+  background-color: $other-color;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   /* margin-left: 490px; */
@@ -43,7 +43,7 @@
   cursor: pointer;
 }
 .cross:focus, .cross:hover {
-  fill: var(--accent-color);
+  fill: $accent-color;
   outline: none;
 }
 .is-hidden {
@@ -100,19 +100,19 @@
   outline: none;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
- border-color: var(--accent-color);
+ border-color: $accent-color;
 }
 .form-input:focus + .form-item-svg {
-  fill: var(--accent-color);
+  fill: $accent-color;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-input:hover + .form-item-svg {
-  fill: var(--accent-color);
+  fill: $accent-color;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-item-svg {
   display: block;
-  fill: var(--title-text-color);
+  fill: $title-text-color;
   position: absolute;
   left: 15px;
   top: 50%;
@@ -127,7 +127,7 @@
 }
 .contract {
   text-decoration-line: underline;
-  color: var(--accent-color);
+  color: $accent-color;
 }
 .agreement-text {
   font-size: 14px;
@@ -139,19 +139,19 @@
   display: inline-block;
   height: 16px;
   width: 15px;
-  border: 2px solid var(--title-text-color);
+  border: 2px solid $title-text-color;
   border-radius: 2px;
   margin-right: 8.38px;
 }
 .chackbox:checked + .agreement-text::before {
-  border-color: var(--accent-color);
+  border-color: $accent-color;
   background-image: url(../img/check.svg);
   background-position: center;
 }
 .submit-button {
   display: block;
-  background-color: var(--accent-color);
-  color: var(--other-color);
+  background-color: $accent-color;
+  color: $other-color;
   height: 50px;
   width: 200px;
   text-align: center;

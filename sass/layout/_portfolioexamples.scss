@@ -1,7 +1,7 @@
 
 /* портфолио список фильтров */
 .exampel-list a {
-  color:var(--title-text-color);
+  color:$title-text-color;
   text-decoration: none;
   transition: all 250ms linear;
 }
@@ -19,7 +19,7 @@
 .example-type {
   font-size: 16px;
   line-height: 1.87;
-  color: var(--primery-text-color);
+  color: $primery-text-color;
   font-weight: 400;
 }
 
