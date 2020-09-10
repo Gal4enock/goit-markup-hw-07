@@ -378,13 +378,6 @@ address {
   background-color: #2196F3;
 }
 
-/* портфолио список фильтров */
-.exampel-list a {
-  color: #212121;
-  text-decoration: none;
-  transition: all 250ms linear;
-}
-
 /* стиль примеров портфолио*/
 .example-details {
   font-size: 18px;
@@ -421,6 +414,17 @@ address {
   flex-wrap: wrap;
 }
 
+.exampel-list a {
+  color: #212121;
+  text-decoration: none;
+  transition: all 250ms linear;
+  display: block;
+}
+
+.exampel-list > li {
+  width: 370px;
+}
+
 .exampel-list > li:not(:nth-child(3n)) {
   margin-right: 30px;
 }
@@ -429,21 +433,13 @@ address {
   margin-bottom: 30px;
 }
 
-.exampel-list > li {
-  width: 370px;
+.exampel-list > li:hover, .exampel-list > li:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .card-description {
   border: 1px solid #EEEEEE;
   padding: 20px 24px;
-}
-
-.exampel-list a {
-  display: block;
-}
-
-.exampel-list li:hover, .exampel-list li:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .overlay {
