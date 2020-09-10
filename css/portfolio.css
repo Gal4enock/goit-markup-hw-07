@@ -191,6 +191,18 @@ header {
   color: #2196F3;
 }
 
+.header-site-address-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header-site-address-svg {
+  height: 16px;
+  width: 18px;
+  fill: currentColor;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
 /* Расположение шапки */
 .header-site-address, .header-address-section {
   display: inline-flex;
@@ -206,18 +218,6 @@ header {
 .header-container {
   align-items: center;
   display: flex;
-}
-
-.header-site-address-item:not(:last-child) {
-  margin-right: 50px;
-}
-
-.header-site-address-svg {
-  height: 16px;
-  width: 18px;
-  fill: currentColor;
-  vertical-align: middle;
-  margin-right: 10px;
 }
 
 /* стиль футера*/
