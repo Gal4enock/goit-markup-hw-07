@@ -715,10 +715,6 @@ address {
   display: flex;
 }
 
-.team {
-  background-color: #F5F4FA;
-}
-
 .section-team-list > li {
   width: 270px;
   background-color: #FFFFFF;
@@ -727,6 +723,10 @@ address {
 
 .section-team-list > li:not(:last-child) {
   margin-right: 30px;
+}
+
+.team {
+  background-color: #F5F4FA;
 }
 
 .team-detail {
