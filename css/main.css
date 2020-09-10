@@ -236,13 +236,6 @@ header {
   margin-right: auto;
 }
 
-.hero-title-button {
-  max-width: 696px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .hero-title {
   color: #FFFFFF;
   text-transform: uppercase;
@@ -254,6 +247,13 @@ header {
   letter-spacing: 0.06em;
   margin-top: 0;
   margin-bottom: 30px;
+}
+
+.hero-title-button {
+  max-width: 696px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Преимущества */
@@ -338,12 +338,47 @@ footer {
   padding-bottom: 60px;
 }
 
+footer .social-link {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+footer .social-item-svg {
+  fill: #FFFFFF;
+}
+
+footer .social-links-list {
+  justify-content: left;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-link-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
 .footer-item li:not(:last-child) {
   margin-bottom: 9px;
 }
 
 .footer-item:last-child {
   min-width: 540px;
+}
+
+.footer-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.footer-sign-form {
+  display: flex;
 }
 
 .logo-footer {
@@ -385,37 +420,6 @@ address {
   padding-bottom: 94px;
 }
 
-.footer-link-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  margin-bottom: 20px;
-}
-
-footer .social-link {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-footer .social-item-svg {
-  fill: #FFFFFF;
-}
-
-footer .social-links-list {
-  justify-content: left;
-}
-
-.footer {
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer-item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .sign-button {
   height: 50px;
   width: 200px;
@@ -433,8 +437,7 @@ footer .social-links-list {
   justify-content: center;
 }
 
-.sign-button:hover,
-.sign-button:focus {
+.sign-button:hover, .sign-button:focus {
   background-color: #FFFFFF;
   color: #2196F3;
   fill: #2196F3;
@@ -442,6 +445,10 @@ footer .social-links-list {
 
 .send-item-svg {
   fill: currentColor;
+}
+
+.send-item-svg:hover, .send-item-svg:focus {
+  fill: #2196F3;
 }
 
 .sign-form-input {
@@ -455,15 +462,6 @@ footer .social-links-list {
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
-
-.send-item-svg:hover,
-.send-item-svg:focus {
-  fill: #2196F3;
-}
-
-.footer-sign-form {
-  display: flex;
 }
 
 /* позиционирование Чем мы занимаемся */

@@ -3,14 +3,34 @@ footer {
   background-color: $footer-background;
   padding-top: 60px;
   padding-bottom: 60px;
+  .social-link {
+    background-color:rgba(255, 255, 255, 0.1);}
+  .social-item-svg{
+    fill: $other-color;}
+  .social-links-list{
+    justify-content: left;}
   }
-.footer-item li:not(:last-child) {
-  margin-bottom: 9px;
+.footer {
+  display: flex;
+  justify-content: space-between;
+  &-link-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $other-color;
+  margin-bottom: 20px;}
+  &-item {
+    li:not(:last-child) {
+      margin-bottom: 9px;}
+    &:last-child {
+      min-width: 540px;}
+    &:not(:last-child) {
+      margin-right: 30px;}}
+  &-sign-form {
+  display: flex;}
 }
-.footer-item:last-child {
-  min-width: 540px;
-}
-
 .logo-footer {
   color: $other-color;
   font-family: 'Raleway', sans-serif;
@@ -40,35 +60,9 @@ footer {
 address {
   font-style: normal
 }
-
 .padding {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-.footer-link-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: $other-color;
-  margin-bottom: 20px;
-}
-footer .social-link {
-  background-color:rgba(255, 255, 255, 0.1);
-}
-footer .social-item-svg{
-  fill: $other-color;
-}
-footer .social-links-list{
-  justify-content: left;
-}
-.footer {
-  display: flex;
-  justify-content: space-between;
-}
-.footer-item:not(:last-child) {
-  margin-right: 30px;
 }
 .sign-button {
   height: 50px;
@@ -85,15 +79,14 @@ footer .social-links-list{
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.sign-button:hover,
-.sign-button:focus {
-  background-color: $other-color;
-  color: $accent-color;
-  fill: $accent-color;
+  &:hover,&:focus {
+    background-color: $other-color;
+    color: $accent-color;
+    fill: $accent-color;}
 }
 .send-item-svg {
   fill: currentColor;
+  &:hover,&:focus {fill: $accent-color;}
 }
 
 .sign-form-input {
@@ -107,12 +100,5 @@ footer .social-links-list{
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  
 }
-.send-item-svg:hover,
-.send-item-svg:focus {
-  fill: $accent-color;
-}
-.footer-sign-form {
-  display: flex;
-}
+
