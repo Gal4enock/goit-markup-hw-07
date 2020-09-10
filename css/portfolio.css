@@ -37,8 +37,7 @@ a {
   transition: all 250ms linear;
 }
 
-a:hover,
-a:focus {
+a:hover, a:focus {
   color: #2196F3;
 }
 
@@ -81,16 +80,16 @@ h3 {
 }
 
 /* стиль оглавлений секций*/
-.section-title, .name {
-  color: #212121;
-  text-align: center;
-  margin-top: 0;
-}
-
 .section-title {
   font-size: 36px;
   line-height: 1.22;
   margin-bottom: 50px;
+}
+
+.section-title, .name {
+  color: #212121;
+  text-align: center;
+  margin-top: 0;
 }
 
 .container {

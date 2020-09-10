@@ -37,8 +37,7 @@ a {
   transition: all 250ms linear;
 }
 
-a:hover,
-a:focus {
+a:hover, a:focus {
   color: #2196F3;
 }
 
@@ -81,16 +80,16 @@ h3 {
 }
 
 /* стиль оглавлений секций*/
-.section-title, .name {
-  color: #212121;
-  text-align: center;
-  margin-top: 0;
-}
-
 .section-title {
   font-size: 36px;
   line-height: 1.22;
   margin-bottom: 50px;
+}
+
+.section-title, .name {
+  color: #212121;
+  text-align: center;
+  margin-top: 0;
 }
 
 .container {
@@ -263,6 +262,7 @@ header {
   text-transform: uppercase;
   color: #212121;
   font-size: 14px;
+  margin-bottom: 10px;
 }
 
 .item-details {
@@ -283,15 +283,6 @@ header {
   padding-bottom: 0px;
 }
 
-.item-title {
-  margin-bottom: 10px;
-}
-
-.list-details p {
-  margin-top: 0;
-  text-align: left;
-}
-
 .list-details {
   display: flex;
   justify-content: space-between;
@@ -299,6 +290,11 @@ header {
 
 .list-details li {
   width: 270px;
+}
+
+.list-details p {
+  margin-top: 0;
+  text-align: left;
 }
 
 .list-details-item::before {
@@ -605,13 +601,13 @@ footer .social-links-list {
   transition: all 250ms linear;
 }
 
-.clients-item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .clients-link:hover, .clients-link:focus {
   fill: #2196F3;
   border: 1px solid #2196F3;
+}
+
+.clients-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 /*--------- Выпадающее окно------- */
